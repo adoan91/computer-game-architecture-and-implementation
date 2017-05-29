@@ -1,0 +1,61 @@
+<scene export_time="1493870508.1547327" formatVersion="1.0.1" exported_by="Taborda-472" previous_export_time="1493870020.926825" >
+  <nodes >
+    <node name="Armature" >
+      <position z="-0.000000" x="0.000000" y="0.000000" />
+      <rotation qw="1.000000" qz="-0.000000" qy="0.000000" qx="0.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="Cube" >
+        <position z="-0.000000" x="0.000000" y="0.000000" />
+        <rotation qw="-0.002549" qz="-0.000000" qy="0.999997" qx="0.000000" />
+        <scale z="1.000000" x="1.000000" y="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity ghost="False" velocity_min="0.0" velocity_max="0.0" lock_trans_z="False" inertia_tensor="0.4000000059604645" name="Cube.001" lock_rot_x="False" friction_x="1.0" mass_radius="1.0" damping_trans="0.03999999910593033" friction_y="1.0" lock_trans_y="False" lock_rot_z="False" anisotropic_friction="False" lock_trans_x="False" actor="False" physics_type="STATIC" meshFile="Cube.001.mesh" damping_rot="0.10000000149011612" friction_z="1.0" lock_rot_y="False" mass="1.0" />
+      </node>
+    </node>
+    <node name="Lamp" >
+      <position z="-1.005454" x="4.076245" y="5.903862" />
+      <rotation qw="0.570947" qz="-0.272171" qy="0.755880" qx="0.169076" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Lamp" type="point" shadow="true" >
+        <position z="-1.005454" x="4.076245" y="5.903862" />
+        <lightAttenuation range="5000" quadratic="0.0" linear="0.03333335240683057" constant="1.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+        <colourShadow g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position z="6.507640" x="7.481132" y="5.343665" />
+      <rotation qw="0.780483" qz="-0.208704" qy="0.336872" qx="0.483536" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera name="Camera" fov="0.5033799435163735" projectionType="perspective" >
+        <clipping farPlaneDist="100.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" far="100.0" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Taborda-472\Documents\pencil2\Material.001.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient g="0.0" r="0.0" b="0.0" />
+    <colourBackground g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+    <colourDiffuse g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+  </environment>
+</scene>
